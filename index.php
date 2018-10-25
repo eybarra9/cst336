@@ -8,5 +8,8 @@
         echo "Eric Ybarra's CST 336 Home Page";
         
         ?>
+        <br><br>
+        
+        <a href = "Labs/Lab1/index.html" > Lab 1 </a>
     </body>
 </html>
