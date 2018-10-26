@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color:gray;
+    color:white;
 }
 
 header, main, nav, footer {
@@ -22,16 +22,13 @@ nav a:hover { /*pseudo class*/
 
 }
 
-.active{
+.active {
     background-color: #33ccff;
     color: white;
 }
 
 #me, #welcomeText {
     float:left;
-}
-
-#welcomeText {
     text-align: left;
 }
 
@@ -44,7 +41,7 @@ table {
     margin: 0px auto;
 }
 
-td{
+td {
     padding-right: 10px;
     font-size:  1.3em
 }
@@ -53,7 +50,8 @@ td strong{
     color: orange;
 }
 
-#table-header{
+/* table colors used in about page */
+#table-header {
     background-color: #351a00;
 }
 
@@ -61,17 +59,38 @@ td strong{
     background-color: #753900
 }
 
-ul{
+/* aligns table of interest */
+ul {
     text-align: left;
     padding-left: 200px;
+    width: 50%;
+    margin: auto;
 }
 
+/* Changes the color to yellow for the heading of each sentence for the about page */
 .hobby{
     color: yellow;
 }
 
-h1{
+/* Change the font of the header */
+h1 {
     font-family: 'Pacifico', cursive;
     font-size: 4em;
     margin-bottom: 0px;
+}
+
+/* Used for positioning the contact google form in the center */
+.contactPage {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.contentIframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
