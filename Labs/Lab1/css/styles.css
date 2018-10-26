@@ -22,14 +22,18 @@ nav a:hover { /*pseudo class*/
 
 }
 
-.active {
+nav .active {
     background-color: #33ccff;
     color: white;
 }
 
 #me, #welcomeText {
-    float:left;
+    float: left;
     text-align: left;
+}
+
+#me {
+    padding-left: 425px; 
 }
 
 footer {
