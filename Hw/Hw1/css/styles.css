@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    background-image: url("../img/background.jpg");
+    color: white;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav a { /* links within "nav" container */
+    padding: 6px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: white; /* by default, links are blue*/
+}
+
+nav a:hover { /*pseudo class*/
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s; /* transition effect */
+
+}
+
+nav .active {
+    background-color: #33ccff;
+    color: white;
+}
+
+#img, #mainContent {
+    float: left;
+    text-align: left;
+}
+
+#img {
+    padding-left: 200px; 
+}
+
+footer {
+    clear: left;
+    color: #33ccff;
+    font-size: 1em;
+}
+
+/* Change the font of the header */
+h1 {
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-size: 4em;
+    background-image: url("../img/biometric_background.jpg");
+    margin-bottom: 0px;
+    text-shadow: 5px 5px black;
+    color: white;
+}
+
+h2 {
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+div a {
+    color: #33ccff;
+}
+
+ul {
+    text-align: left;
+    font-size: 1.3em;
+    margin: auto;
+}
+
+.trends {
+    color: #33ccff; 
+}
+
+blockquote {
+    font-size: 1.3em; 
+}
+
+#sources {
+    font-size: 1em;
+}
+
+
+
+
