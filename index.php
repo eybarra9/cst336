@@ -12,5 +12,9 @@
         <br><br>
     
         <a href = "Labs/Lab1/index.html" > Lab 1 </a>
+        
+        <br><br>
+        
+        <a href = "Hw/Hw1/index.html" > HW 1 </a>
     </body>
 </html>
