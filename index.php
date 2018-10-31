@@ -11,10 +11,11 @@
         
         <br><br>
     
-        <a href = "Labs/Lab1/index.html" > Lab 1 </a>
+        <a href = "Labs/Lab1/index.html" > Lab 1 </a><br>
+        <a href = "Labs/Lab2/index.php" > Lab 2 </a>
         
         <br><br>
         
-        <a href = "Hw/Hw1/overview.html" > HW 1 </a>
+        <a href = "Hw/Hw1/overview.html" > Hw 1 </a>
     </body>
 </html>
