@@ -50,7 +50,7 @@ td {
     font-size:  1.3em
 }
 
-td strong{
+td strong {
     color: orange;
 }
 
@@ -59,7 +59,7 @@ td strong{
     background-color: #351a00;
 }
 
-.table-row{
+.table-row {
     background-color: #753900
 }
 
@@ -72,7 +72,7 @@ ul {
 }
 
 /* Changes the color to yellow for the heading of each sentence for the about page */
-.hobby{
+.hobby {
     color: yellow;
 }
 
