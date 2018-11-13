@@ -13,12 +13,12 @@
     
         <a href = "Labs/Lab1/index.html" > Lab 1 </a><br>
         <a href = "Labs/Lab2/index.php" > Lab 2 </a><br>
-        <a href = "Labs/Lab3/index.php" > Lab 3 </a>
+        <a href = "Labs/Lab3/index.php" > Lab 3 </a><br>
         
         <br><br>
         
         <a href = "Hw/Hw1/overview.html" > Hw 1 </a><br>
-        <a href = "Hw/Hw2/index.php" > Hw 2 </a>
-        <a href = "Hw/Hw3/index.php" > Hw 3</a>
+        <a href = "Hw/Hw2/index.php" > Hw 2 </a><br>
+        <a href = "Hw/Hw3/index.php" > Hw 3</a><br>
     </body>
 </html>
