@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body {
+    background-color: gray;
+    background-image:url("../img/star_bk.jpg");
+    text-align:center;
+    color:white;
+}
+
+#main {
+    font-family: 'Baloo Bhaina', cursive;
+    font-size: 2em;
+    color: black;
+    background: rgba(255,255,255,0.8);
+    border: 3px solid black;
+    border-radius: 100px 100px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#results {
+    font-family: 'Baloo Bhaina', cursive;
+    background: rgba(255,255,255,0.8);
+    border: 3px solid black;
+    border-radius: 100px 100px;
+    font-size: 1.5em;
+    color: black; 
+    padding: 25px;
+    margin-top: 30px;  
+    
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    background: rgba(255,255,255,0.8);
+    border: 3px solid black;
+    border-radius: 100px 100px;
+    color: black;
+    padding: 25px;
+    text-shadow: 2px 2px lightblue;
+    font-size: 4em;
+}
+
+h3 {
+    font-family: 'Baloo Bhaina', cursive;
+    text-shadow: 2px 2px lightblue;
+    font-size: 1em;
+}
+
+#checkBox {
+    width: 20px;
+    height: 20px;
+}
+
+#circleChoice {
+    width: 20px;
+    height: 20px; 
+}
+
+#textBox {
+    width: 250px;
+    height: 30px;
+    font-size: 1em;
+}
+
+#selectBox {
+    width: 250px;
+    height: 40px;
+    font-size: 1em;
+}
+
+#submitButton {
+    width: 250px;
+    height: 60px;
+    font-size: 1.5em;
+}
+
