@@ -16,6 +16,7 @@
         <a href = "Labs/Lab3/index.php" > Lab 3 </a><br>
         <a href = "Labs/Lab4/index.php" > Lab 4 </a><br>
         <a href = "Labs/Lab5/index.php" > Lab 5 </a><br>
+        <a href = "Labs/Lab6/index.php" > Lab 6 </a><br>
         
         <br><br>
         
