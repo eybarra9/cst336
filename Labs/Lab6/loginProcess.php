@@ -1,8 +1,8 @@
 <?php
     
-    include '../dbConnection.php';
-    
     session_start(); 
+    
+    include 'dbConnection.php';
     
     $conn = getDatabaseConnection("ottermart");
     
