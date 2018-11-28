@@ -12,6 +12,7 @@ var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',
 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',
 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 
+
 //console.log(words[0]);
 
 // LISTENERS
@@ -23,8 +24,19 @@ $(".letter").click(function() {
 });
 
 // Win and loss button that reload the page when clicked
-$(".replayBtn").on("click", function(){
+$(".replayBtn").on("click", function() {
     location.reload();
+});
+
+// Hide show hint button
+$("#wordHint").click(function() {
+    $(".hint").toggle();
+    
+    if(true)
+    {
+        remainingGuesses -= 1;
+        updateMan();
+    }
 });
 
 // FUNCTIONS    
@@ -118,6 +130,8 @@ function updateBoard()
     
     $("#word").append("<br />");
     $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>");
+    
+    
 }
 
 // Calculates and updates the image for our stick man
