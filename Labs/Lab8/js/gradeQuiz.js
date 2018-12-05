@@ -13,9 +13,13 @@ $(document).ready(function(){
         //Get answers
         var answer1 = $("input[name='question1']").val().trim();
         var answer2 = $("input[name='question2']:checked").val();
+        var answer3 = $("input[name='question3']").val().trim();
+        var answer4 = $("input[name='question4']:checked").val();
         
         console.log(answer1);
         console.log(answer2);
+        console.log(answer3);
+        console.log(answer4);
         
         //Checks if answers are correct
         // Question 1
@@ -41,6 +45,30 @@ $(document).ready(function(){
         }
         
         $("#question2-feedback").append("The answer is <strong>Monte Rey</strong>");
+        
+        // Question 3
+        if(answer3 === "Seaside" || answer3==="seaside")
+        {
+            correctAnswer($("#question3-feedback"));
+        }
+        else 
+        {
+            incorrectAnswer($("#question3-feedback"));
+        }
+        
+        $("#question3-feedback").append("The answer is <strong>Seaside</strong>");
+        
+        // Question 4
+        if(answer4 === "B")
+        {
+            correctAnswer($("#question4-feedback"));
+        }
+        else
+        {
+            incorrectAnswer($("#question4-feedback"));
+        }
+        
+        $("#question4-feedback").append("The answer is <strong>Bay Blue, Valley Green, Golden Sand</strong>");
         
         //Displays quiz score
         $("#score").html(score);
