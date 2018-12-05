@@ -12,7 +12,7 @@
     <div id="question2-feedback" class="answer"></div><br />
     
     <!--Question 3-->
-    Where is CSUMB located?<br />
+    In what city is CSUMB located?<br />
     <input type="text" name="question3" size="5" /><br />
     <div id="question3-feedback" class="answer"></div><br />
     
