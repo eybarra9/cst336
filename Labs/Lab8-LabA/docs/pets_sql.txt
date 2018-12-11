@@ -1,5 +1,4 @@
 
-
 --
 -- Table structure for table `pets`
 --
